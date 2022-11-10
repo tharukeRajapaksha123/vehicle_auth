@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body{
+	margin : 0;
+	width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position : center;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-items:center; 
+    background-image: url("https://images.drive.com.au/driveau/image/upload/c_fill,h_2466,w_4383/q_auto:eco/f_auto/v1/cms/uploads/y1k0lzdsvnj5yqkdjfpi");
+    font-family: 'Roboto', sans-serif;
+}
+
+.glass-card{
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	display:flex;
+	flex-direction:column;
+	padding : 16px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border : none;
+  background-color : rgba(1,1,1,0.6);
+  color : white;
+  font-weight : w800;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+button{
+	border: none;
+	height : 40px;
+	background-color : red;
+	color : white;
+	border-radius : 12px;
+}
