@@ -54,3 +54,7 @@ button{
 	color : white;
 	border-radius : 12px;
 }
+
+.delete-btn{
+	margin : 8px 0;'
+}

@@ -60,6 +60,9 @@
 			<form action="LogoutServerlet" method="post">
 				<button id= "logout-btn" type="submit">Logout</button>
 			</form>
+			<form action="DeleteUserServerlet" method="post">
+				<button id= "delete-btn" type="submit">DELETE</button>
+			</form>
 		</div>
 	</div>
 	<script>
